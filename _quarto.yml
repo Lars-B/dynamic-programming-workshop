@@ -5,8 +5,8 @@ project:
 website:
   title: "Template Workshop"
   favicon: img/favicon.ico
-  repo-url: https://github.com/Lars-B/workshop-template
-  site-url: https://lars-b.github.io/workshop-template
+  repo-url: https://github.com/Lars-B/dynamic-programming-workshop
+  site-url: https://lars-b.github.io/dynamic-programming-workshop
   navbar:
     logo: img/coffee_can.png
     title: false
