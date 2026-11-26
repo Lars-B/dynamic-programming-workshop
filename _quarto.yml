@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Template Workshop"
+  favicon: img/favicon.ico
+  repo-url: https://github.com/Lars-B/workshop-template
+  site-url: https://lars-b.github.io/workshop-template
+  navbar:
+    logo: img/coffee_can.png
+    title: false
+    left:
+      - text: "Home"
+        href: index.qmd
+        icon: house
+      - text: "Session 1"
+        href: pages/session1.qmd
+        icon: activity
+      - text: "Session 2"
+        href: pages/session2.qmd
+        icon: box-seam
+      - text: "{{< fa brands r-project >}} embedding"
+        href: pages/embedR.qmd
+      - text: "{{< fa brands python >}} embedding"
+        href: pages/embedPython.qmd
+      - text: "PDF embedding"
+        href: pages/embedPDF.qmd
+        icon: file-earmark-pdf
+      - text: "About"
+        href: about.qmd
+        icon: airplane-engines
+    tools:
+      - icon: github
+        href: https://github.com/Lars-B/
+        target: _blank
+        aria-label: GitHub organization
+  page-footer:
+    center: "&copy; 2026 Lars Berling - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: css/styles.css

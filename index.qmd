@@ -1,0 +1,105 @@
+---
+title: Workshop / Summer School Name
+description: |
+  <br>This in-person workshop is offered by [Your Institution](https://example.com) and hosted by [Hosting Department / Lab](https://example.com).
+  Open to all participants from [target audience].
+
+  <center>[Register](https://example.com/register){.btn .btn-outline-primary}</center>
+
+toc: false
+title-block-banner: true
+anchor-sections: false
+---
+
+Each day will have morning and afternoon sessions. Participants should bring their own laptops for hands-on exercises.
+For specific requirements, see the individual session pages.<br><br>
+
+
+<!-- ================= Day 1 ================= -->
+:::{.date}
+Monday<br>[Date]
+:::
+
+:::{layout="[[10]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Session 1 Title](pages/session1.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Short description
+:::
+:::
+:::
+:::
+
+<!-- ================= Day 2 ================= -->
+:::{.date}
+Tuesday<br>[Date]
+:::
+
+:::{layout="[[5,5]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Session 2 Title](pages/session2.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Short description
+:::
+:::
+:::
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding PDFs](pages/embedPDF.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Display and embed PDFs
+:::
+:::
+:::
+
+:::
+
+<!-- ================= Day 3 ================= -->
+:::{.date}
+Wednesday<br>[Date]
+:::
+
+:::{layout="[[6,4]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding R code](pages/embedR.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+This is about embedding R code
+:::
+:::
+:::
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding Python code](pages/embedPython.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Same as R but with Python
+:::
+:::
+:::
+
+:::
+
+<!--
+Can repeat for more days and sessions...
+-->
+
+<br><br>
+![](img/duck_coffee.png){fig-alt="front logo"}
+
+<br>
+<center>Hosted by:</center>
+<br>
+
+<center>![](img/keen_on_caffeine.png){fig-alt="host logo" width="35%"}</center>

@@ -1,0 +1,1 @@
+Sitemap: https://lars-b.github.io/workshop-template/sitemap.xml

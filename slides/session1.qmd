@@ -1,0 +1,36 @@
+---
+title: "Session 1 slides"
+format:
+  revealjs:
+    preview-links: auto
+    logo: ../img/coffee_can.png
+---
+
+## First slide
+
+- This is a demo of qmd slides
+- These live on the website, no pdfs required
+
+::: notes
+Speaker notes (press S)
+Can we added, but not really my thing.
+:::
+
+## Code works too
+
+```{r}
+plot(1:10)
+```
+
+## Example qmd talk
+
+For a full example, check out my talk on reproducible computation.
+
+- [View slides](https://lars-b.github.io/computational-math-talk/){.btn .btn-outline-primary target="_blank"}
+- [Source code](https://github.com/Lars-B/computational-math-talk){.btn .btn-outline-secondary target="_blank"}
+
+
+```{=html}
+<iframe src="https://lars-b.github.io/computational-math-talk/"
+        width="90%" height="300px" style="border:none;"></iframe>
+```

@@ -1,0 +1,6 @@
+format:
+  revealjs:
+    slide-number: true
+    theme: simple
+    chalkboard: true
+    footer: '<a href="../index.html" onclick="if (document.referrer) { location.href = document.referrer; return false; }">Go Back to website</a>'

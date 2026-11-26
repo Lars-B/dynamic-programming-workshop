@@ -1,0 +1,36 @@
+---
+title: Session 1 Title
+description: |
+  <br>A short description of this session.
+  Example: This session will introduce participants to [topic/skill] and provide hands-on practice with [tools/approaches].
+title-block-banner: true
+---
+
+:::{.topdef}
+
+**Date:** \
+[Day of week], [Month] [Day], [Year]
+
+**Time:** \
+[Start time]–[End time] ([morning/afternoon/evening] session)
+
+**Location:** \
+[Venue or virtual platform]
+
+**Instructor:** \
+[Instructor Name]
+
+**Prerequisites:** \
+[List of prerequisite knowledge or skills, if any]
+
+**Software:** \
+[List software requirements here. For example:
+Participants should install [Software/Tool] beforehand, or ensure they have access to a web browser with [requirement].]
+
+:::
+
+<br>
+
+Course materials can be found [here](https://example.com/session1-materials).
+
+[Open slides](../slides/session1.html)
