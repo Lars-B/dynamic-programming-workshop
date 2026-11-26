@@ -1,0 +1,17 @@
+{
+  "hash": "9ccf98cdf9587ef0dffe44722ba0c38c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Embedding R code\ndescription: |\n  <br>This session will cover embedding R code in qmd.\ntitle-block-banner: true\n---\n\n## Session Details\n\n- **Date:** [Day of week], [Month] [Day], [Year]\n- **Time:** [Start time]–[End time] ([morning/afternoon/evening] session)\n- **Location:** [Venue or virtual platform]\n- **Instructor:** [Instructor Name]\n\n---\n\n# Embedding R code into the website\n\nThe quarto markdown `.qmd` is essentially a successor to RMarkdown,\nmostly backward compatible and following similar syntax.\n\n## Library loading\n\nHere we are loading the libraries used throughout this document.\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"false\"}\nlibrary(ape)\nlibrary(phangorn)\n```\n:::\n\n\n## Code chunks\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"false\"}\ntree1 <- ape::read.tree(text='(((A,B),C),D);')\ntree2 <- ape::read.tree(text='(((A,C),B),D);')\n\ndist <- phangorn::RF.dist(tree1, tree2)\n\ndist\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n## Cross reference figures\n\nYou can add special tags to be able to create links to figures.\nSee @fig-linkable for details.\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"true\"}\ntree1 <- ape::read.tree(text='(((A,B),C),D);')\n\nplot(tree1)\n```\n\n::: {.cell-output-display}\n![You can link to this figure](embedR_files/figure-html/fig-linkable-1.png){#fig-linkable width=672}\n:::\n:::\n\n\n## Reading external datasets\n\nWe can also read in files that are provided in a relative location to this document.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmy.trees <- ape::read.nexus('../data/example.trees')\n\nphangorn::RF.dist(my.trees)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n           STATE_0 STATE_2000\nSTATE_2000      26           \nSTATE_4000      28         16\n```\n\n\n:::\n:::\n\n\n",
+    "supporting": [
+      "embedR_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

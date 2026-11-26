@@ -1,0 +1,21 @@
+{
+  "hash": "3577dc8a261ebb724bcb174a0bbc5abe",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Session 1 slides\"\nformat:\n  revealjs:\n    preview-links: auto\n    logo: ../img/coffee_can.png\n---\n\n## First slide\n\n- This is a demo of qmd slides\n- These live on the website, no pdfs required\n\n::: notes\nSpeaker notes (press S)\nCan we added, but not really my thing.\n:::\n\n## Code works too\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](session1_files/figure-revealjs/unnamed-chunk-1-1.png){width=960}\n:::\n:::\n\n\n## Example qmd talk\n\nFor a full example, check out my talk on reproducible computation.\n\n- [View slides](https://lars-b.github.io/computational-math-talk/){.btn .btn-outline-primary target=\"_blank\"}\n- [Source code](https://github.com/Lars-B/computational-math-talk){.btn .btn-outline-secondary target=\"_blank\"}\n\n\n```{=html}\n<iframe src=\"https://lars-b.github.io/computational-math-talk/\"\n        width=\"90%\" height=\"300px\" style=\"border:none;\"></iframe>\n```\n",
+    "supporting": [
+      "session1_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
