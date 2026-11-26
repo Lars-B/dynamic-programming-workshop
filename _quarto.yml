@@ -38,6 +38,9 @@ website:
   page-footer:
     center: "&copy; 2026 Lars Berling - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 
+execute:
+  freeze: auto
+
 format:
   html:
     theme:
