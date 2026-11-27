@@ -1,14 +1,15 @@
 ---
-title: Dynamic Programming Applications
+title: Dynamic Programming and Applications
 description: |
   <br>This is a workshop on the dynmaic programming paradigm and its applications over a range of topics.
-
-  # <center>[Register](https://example.com/register){.btn .btn-outline-primary}</center>
 
 toc: false
 title-block-banner: true
 anchor-sections: false
 ---
+
+<!-- <center>[Register](https://example.com/register){.btn .btn-outline-primary}</center> -->
+
 <br>
 Dynamic programming (DP) is a widely used idea in computer science: you break a hard problem into smaller overlapping subproblems and build the answer from their solutions.
 The same idea aligns DNA (or string) sequences, finds shortest routes through networks, decodes hidden structure in biological data, and is used in reinforcement learning.
