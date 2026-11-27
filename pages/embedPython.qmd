@@ -3,6 +3,7 @@ title: Embedding Python code
 description: |
   <br>This session will cover embedding Python code in qmd.
 title-block-banner: true
+draft: true
 ---
 
 ## Session Details

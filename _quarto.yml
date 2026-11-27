@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: docs
 
+bibliography: references.bib
+suppress-bibliography: true
+citations-hover: true
+
 website:
   title: "Template Workshop"
   favicon: img/favicon.ico
@@ -30,6 +34,9 @@ website:
       - text: "About"
         href: about.qmd
         icon: airplane-engines
+      - text: "References"
+        href: pages/references.qmd
+        icon: book
     tools:
       - icon: github
         href: https://github.com/Lars-B/

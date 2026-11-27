@@ -3,6 +3,7 @@ title: Embedding R code
 description: |
   <br>This session will cover embedding R code in qmd.
 title-block-banner: true
+draft: true
 ---
 
 ## Session Details

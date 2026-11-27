@@ -3,6 +3,7 @@ title: Embed PDF
 description: |
   <br>Here we will cover how to deal with PDFs, displaying them, opening them or linking to them for download.
 title-block-banner: true
+draft: true
 ---
 
 ## Session Details

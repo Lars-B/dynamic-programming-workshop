@@ -4,6 +4,7 @@ description: |
   <br>A short description of this session.
   Example: This session will introduce participants to [topic/skill] and provide hands-on practice with [tools/approaches].
 title-block-banner: true
+draft: true
 ---
 
 :::{.topdef}
