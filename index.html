@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content=" This in-person workshop is offered by Your Institution and hosted by Hosting Department / Lab. Open to all participants from [target audience].Register">
+<meta name="description" content=" This is a workshop on the dynmaic programming paradigm and its applications over a range of topics.#Register">
 
-<title>Workshop / Summer School Name – Template Workshop</title>
+<title>Dynamic Programming Applications – Template Workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -279,32 +279,9 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pages/session1.html"> <i class="bi bi-activity" role="img">
+    <a class="nav-link" href="./pages/references.html"> <i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">Session 1</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pages/session2.html"> <i class="bi bi-box-seam" role="img">
-</i> 
-<span class="menu-text">Session 2</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pages/embedR.html"> 
-<span class="menu-text"><i class="fa-brands fa-r-project" aria-label="r-project"></i> embedding</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pages/embedPython.html"> 
-<span class="menu-text"><i class="fa-brands fa-python" aria-label="python"></i> embedding</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pages/embedPDF.html"> <i class="bi bi-file-earmark-pdf" role="img">
-</i> 
-<span class="menu-text">PDF embedding</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-airplane-engines" role="img">
-</i> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">References</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -320,10 +297,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Workshop / Summer School Name</h1>
+      <h1 class="title">Dynamic Programming Applications</h1>
                   <div>
         <div class="description">
-          <p><br>This in-person workshop is offered by <a href="https://example.com">Your Institution</a> and hosted by <a href="https://example.com">Hosting Department / Lab</a>. Open to all participants from [target audience].</p>
+          <p><br>This is a workshop on the dynmaic programming paradigm and its applications over a range of topics.</p>
+          #
           <center>
           <a href="https://example.com/register" class="btn btn-outline-primary">Register</a>
           </center>
@@ -353,85 +331,111 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Each day will have morning and afternoon sessions. Participants should bring their own laptops for hands-on exercises. For specific requirements, see the individual session pages.<br><br></p>
+<p><br> Dynamic programming (DP) is a widely used idea in computer science: you break a hard problem into smaller overlapping subproblems and build the answer from their solutions. The same idea aligns DNA (or string) sequences, finds shortest routes through networks, decodes hidden structure in biological data, and is used in reinforcement learning.</p>
+<p>This workshop (designed for five days) shows how Bellman’s principle of optimality ties all of these together. We start with the foundations: memoization, tabulation, complexity analysis, the knapsack problem, and shortest-path alogrithms such as Dijkstra and Bellman-Ford. We then turn to applications in bioinformatics (one of the biggest areas using DP): global and local sequence alignment, and hidden Markov models with the Viterbi and forward-backward algorithms. In the second half, we add uncertainty, advancing to stochastic dynamic programming and Markov decision processes. The workshop ends with reinforcement learning, where the same equations are solved from experience instead of from a known model.</p>
+<p>Each day has two lectures (roughly 90 minutes) and two hands-on practical sessions that mix pen-and-paper derivations with implementation in Python. By the end, participants will have built a toolkit of core algorithms from scratch. They will also understand when DP applies, how to design a DP solution, and how far it scales.</p>
+<p><strong>Prerequisites:</strong> basic Python or general familiarity with programming, some familitiarity with probabiltiy and maths. <br> —</p>
+<!-- Use the tabset for different days? -->
+<!-- ::: {.panel-tabset} -->
 <!-- ================= Day 1 ================= -->
-<div class="date">
-<p>Monday<br>[Date]</p>
-</div>
-<div class="quarto-layout-panel" data-layout="[[10]]">
-<div class="quarto-layout-row">
-<div class="card mb-3 quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<div class="card-body">
-<p><a href="./pages/session1.html" class="card-title stretched-link">Session 1 Title</a></p>
-<div class="text-muted">
-<p>Short description</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- :::{.date}
+Monday<br>[Date]
+:::
+
+:::{layout="[[10]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Session 1 Title](pages/session1.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Short description
+:::
+:::
+:::
+::: -->
 <!-- ================= Day 2 ================= -->
-<div class="date">
-<p>Tuesday<br>[Date]</p>
-</div>
-<div class="quarto-layout-panel" data-layout="[[5,5]]">
-<div class="quarto-layout-row">
-<div class="card mb-3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="card-body">
-<p><a href="./pages/session2.html" class="card-title stretched-link">Session 2 Title</a></p>
-<div class="text-muted">
-<p>Short description</p>
-</div>
-</div>
-</div>
-<div class="card mb-3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="card-body">
-<p><a href="./pages/embedPDF.html" class="card-title stretched-link">Embedding PDFs</a></p>
-<div class="text-muted">
-<p>Display and embed PDFs</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- :::{.date}
+Tuesday<br>[Date]
+:::
+
+:::{layout="[[5,5]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Session 2 Title](pages/session2.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Short description
+:::
+:::
+:::
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding PDFs](pages/embedPDF.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Display and embed PDFs
+:::
+:::
+:::
+
+::: -->
 <!-- ================= Day 3 ================= -->
-<div class="date">
-<p>Wednesday<br>[Date]</p>
-</div>
-<div class="quarto-layout-panel" data-layout="[[6,4]]">
-<div class="quarto-layout-row">
-<div class="card mb-3 quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="card-body">
-<p><a href="./pages/embedR.html" class="card-title stretched-link">Embedding R code</a></p>
-<div class="text-muted">
-<p>This is about embedding R code</p>
-</div>
-</div>
-</div>
-<div class="card mb-3 quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<div class="card-body">
-<p><a href="./pages/embedPython.html" class="card-title stretched-link">Embedding Python code</a></p>
-<div class="text-muted">
-<p>Same as R but with Python</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- :::{.date}
+Wednesday<br>[Date]
+:::
+
+:::{layout="[[6,4]]"}
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding R code](pages/embedR.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+This is about embedding R code
+:::
+:::
+:::
+
+:::{.card .mb-3}
+:::{.card-body}
+[Embedding Python code](pages/embedPython.qmd){.card-title .stretched-link}
+
+:::{.text-muted}
+Same as R but with Python
+:::
+:::
+:::
+
+::: -->
 <!--
 Can repeat for more days and sessions...
 -->
-<p><br><br> <img src="img/duck_coffee.png" class="img-fluid" alt="front logo"></p>
+<section id="what-is-dp" class="level2">
+<h2 data-anchor-id="what-is-dp">What is DP?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/what_is_dp.png" class="img-fluid figure-img" alt="What is DP"></p>
+<figcaption>What is DP, taken from <span class="citation" data-cites="eddy2004dynamic">Eddy (2004)</span>.</figcaption>
+</figure>
+</div>
 <br>
 <center>
 Hosted by:
 </center>
-<p><br></p>
 <center>
-<img src="img/keen_on_caffeine.png" class="img-fluid" style="width:35.0%" alt="host logo">
+Lars Berling
 </center>
+<center>
+MAGPIE group, SFU Maths
+</center>
+<p><br></p>
+<!-- <center>![](img/keen_on_caffeine.png){fig-alt="host logo" width="35%"}</center> -->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
