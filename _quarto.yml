@@ -7,7 +7,7 @@ suppress-bibliography: true
 citations-hover: true
 
 website:
-  title: "Template Workshop"
+  title: "DP workshop"
   favicon: img/favicon.ico
   repo-url: https://github.com/Lars-B/dynamic-programming-workshop
   site-url: https://lars-b.github.io/dynamic-programming-workshop
